@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/contact.css">
+        <title>Contact Us</title>
+    </head>
+    <body>
+        <div id="alert_msg" class="hide">
+            <span id="span_msg"></span>
+        </div>
+        <form action="email_us.php" method="post" onsubmit="return validate()">
+            <div>
+                <label for="txt_name">Your Name: </label>
+                <input type="text" name="name" id="txt_name">
+            </div>
+            <div>
+                <label for="txt_email">Your Email: </label>
+                <input type="text" name="email" id="txt_email">
+            </div>
+            <div>
+                <label style="display: block;" for="txt_area">What you wish to contact us about: </label>
+                <textarea name="text" id="txt_area" cols="70" rows="10"></textarea>
+            </div>
+            <input type="submit" value="Submit">
+        </form>
+        <script src="js/contact.js"></script>
+    </body>
+</html>

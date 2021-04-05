@@ -1,0 +1,40 @@
+/* Header */
+header {
+    margin-bottom: 30px;
+}
+#home-btn {
+    position: absolute;
+    top: 0;
+    background-color: black;
+}
+#home-btn:hover {
+    cursor: pointer;
+}
+header h1 {
+    text-align: center;
+}
+/* Nav */
+nav {
+    margin-bottom: 30px;
+    text-align: center;
+    padding: 40px;
+    background: #582A72;
+    font-size: 22pt;
+    border: black 5px solid;
+}
+nav a {
+    padding: 14px;
+    text-decoration: none;
+    border: blue solid 4px;
+    color: white;
+    background-color: blue;
+    border-radius: 20px;
+}
+nav a:hover {
+    padding: 14px;
+    text-decoration: none;
+    border: blue solid 4px;
+    color: black;
+    background-color: white;
+    border-radius: 20px;
+}
