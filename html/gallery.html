@@ -4,13 +4,13 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="css/gallery.css">
-        <link rel="stylesheet" href="css/default.css">
+        <link rel="stylesheet" href="../css/gallery.css">
+        <link rel="stylesheet" href="../css/default.css">
         <title>Gallery</title>
     </head>
     <body>
         <header>
-            <img id="home-btn" onclick="window.location.href='index.html'" src="resources/home_icon_edited.png" alt="Home picture">
+            <img id="home-btn" onclick="window.location.href='index.html'" src="../resources/home_icon_edited.png" alt="Home picture">
             <h1>Samantha Morris's Art Gallery</h1>
         </header>
         <nav>
@@ -23,28 +23,33 @@
         <h1 style="text-align: center;">Gallery</h1>
         <table>
             <tr>
-                <td><img src="resources/gallery_images/jellyfish.jpg" alt="jellyfish"></td>
-                <td><img src="resources/gallery_images/hand_and_rose.jpg" alt="Skeleton hand holding a rose"></td>
+                <td><img src="../resources/gallery_images/jellyfish.jpg" alt="jellyfish"></td>
+                <td><img src="../resources/gallery_images/hand_and_rose.jpg" alt="Skeleton hand holding a rose"></td>
             </tr>
             <tr>
-                <td><img src="resources/gallery_images/dragon_eye.jpg" alt="Dragon's Eye"></td>
-                <td><img src="resources/gallery_images/elephant.jpeg" alt="Elephant looking up the the sky"></td>
+                <td><img src="../resources/gallery_images/dragon_eye.jpg" alt="Dragon's Eye"></td>
+                <td><img src="../resources/gallery_images/elephant.jpeg" alt="Elephant looking up the the sky"></td>
             </tr>
             <tr>
-                <td><img src="resources/gallery_images/flaming_skull.jpg" alt="Flaming Skull"></td>
-                <td><img src="resources/gallery_images/many_tentacles.jpg" alt="A horde of tentacles reaching towards the moon"></td>
+                <td><img src="../resources/gallery_images/flaming_skull.jpg" alt="Flaming Skull"></td>
+                <td><img src="../resources/gallery_images/many_tentacles.jpg" alt="A horde of tentacles reaching towards the moon"></td>
             </tr>
             <tr>
-                <td><img src="resources/gallery_images/skeleton_face.jpg" alt="A skeleton's face"></td>
-                <td><img src="resources/gallery_images/skeleton_face_2.jpeg" alt="A skeleton's face"></td>
+                <td><img src="../resources/gallery_images/skeleton_face.jpg" alt="A skeleton's face"></td>
+                <td><img src="../resources/gallery_images/skeleton_face_2.jpeg" alt="A skeleton's face"></td>
             </tr>
             <tr>
-                <td><img src="resources/gallery_images/tentacle.jpg" alt="A single tentacle"></td>
+                <td><img src="../resources/gallery_images/tentacle.jpg" alt="A single tentacle"></td>
                 <td></td>
             </tr>
         </table>
         <footer>
-			Copyright &copy; 2021 - Chris Seals, all rights reserved.
+			Copyright &copy; <span id="date"></span> - Enterprise Solutions, all rights reserved.
 		</footer>
+        <script>
+            var span = document.getElementById("date");
+            var date = new Date();
+            span.innerHTML = date.getFullYear();
+        </script>
     </body>
 </html>

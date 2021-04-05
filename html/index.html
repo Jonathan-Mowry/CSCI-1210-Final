@@ -4,12 +4,12 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="css/default.css">
+        <link rel="stylesheet" href="../css/default.css">
         <title>Landing Page</title>
     </head>
     <body>
         <header>
-            <img id="home-btn" onclick="window.location.href='index.html'" src="resources/home_icon_edited.png" alt="Home picture">
+            <img id="home-btn" onclick="window.location.href='index.html'" src="../resources/home_icon_edited.png" alt="Home picture">
             <h1>Samantha Morris's Art Gallery</h1>
         </header>
         <nav>
@@ -20,7 +20,12 @@
             <a href="bio.html">Biography</a>
         </nav>
         <footer>
-			Copyright &copy; 2021 - Chris Seals, all rights reserved.
+			Copyright &copy; <span id="date"></span> - Enterprise Solutions, all rights reserved.
 		</footer>
+        <script>
+            var span = document.getElementById("date");
+            var date = new Date();
+            span.innerHTML = date.getFullYear();
+        </script>
     </body>
 </html>
