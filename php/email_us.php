@@ -2,7 +2,7 @@
     //Programmer: Jon Mowry
     //Date Created: 03/31/2021
     //Last Updated: 03/31/2021
-    require_once "general/error.php";
+    require_once "../general/error.php";
     
     $name = $email = $text = "";
     $final = "b=1";
