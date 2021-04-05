@@ -19,11 +19,12 @@
             <a href="gallery.html">Gallery</a>
             <a href="bio.html">Biography</a>
         </nav>
-        <img src="" alt="">
-        <button>Get Random Picture.</button>
+        <img id="rand-img" src="" alt="">
+        <button onclick="randDriver()">Get Random Picture.</button>
         <footer>
 			Copyright &copy; <span id="date"></span> - Enterprise Solutions, all rights reserved.
 		</footer>
+        <script src="../js/random_pic_gen.js"></script>
         <script>
             var span = document.getElementById("date");
             var date = new Date();

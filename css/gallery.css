@@ -11,3 +11,6 @@ td img {
     width: 500px;
     height: 500px;
 }
+figcaption {
+    text-align: center;
+}
