@@ -25,15 +25,15 @@ nav {
 nav a {
     padding: 14px;
     text-decoration: none;
-    border: blue solid 4px;
+    border: #AA9739 solid 4px;
     color: white;
-    background-color: blue;
+    background-color: #AA9739;
     border-radius: 20px;
 }
 nav a:hover {
     padding: 14px;
     text-decoration: none;
-    border: blue solid 4px;
+    border: #AA9739 solid 4px;
     color: black;
     background-color: white;
     border-radius: 20px;

@@ -11,14 +11,20 @@ img
 }
 div
 {
-    margin: 5px auto;
+    margin: auto;
     border: 2px solid black;
     padding: 5px;
     height: 400px;
-    width: 1200px;
+    width: 1500px;
     font-size: large;
+    background-color: #AA9739;
+    color: white;
 }
 p
 {
-    text-indent: 15px;
+    text-indent: 30px;
+}
+h2
+{
+    padding: 5px;
 }
