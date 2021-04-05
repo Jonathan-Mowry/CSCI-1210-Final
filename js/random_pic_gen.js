@@ -1,3 +1,7 @@
+//Programmer: Jon Mowry
+//Date Created: 04/05/2021
+//Last Updated: 04/05/2021
+
 //Array that holds the file name for a given picture.
 var picNameArr = ["Dragon_eye.jpg", "elephant.jpeg", "flaming_skull.jpg", "hand_and_rose.jpg", "jellyfish.jpg", "many_tentacles.jpg", "skeleton_face_2.jpeg", "skeleton_face.jpg", "tentacle.jpg", "oogieboogie.jpg"];
 //Array that holds the alt for each picture.
