@@ -5,6 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="../css/default.css">
+        <link rel="stylesheet" href="../css/index.css">
         <title>Landing Page</title>
     </head>
     <body>
@@ -19,8 +20,21 @@
             <a href="gallery.html">Gallery</a>
             <a href="bio.html">Biography</a>
         </nav>
-        <img id="rand-img" src="" alt="">
-        <button onclick="randDriver()">Get Random Picture.</button>
+        <!--Welcome-->
+        <div class="center-inline">
+            <h1>Hello and welcome to my Art Gallery!</h1>
+            <p>
+                Some stuff regarding looking around and where to find things. Put basic info here.
+            </p>
+            <p>
+                Below is an example of some of my artwork. Click the button to get a random piece. To see them all please navigate to the Gallery in the navigation bar at the top of the webpage.
+            </p>
+        </div>
+        <!--Random Image-->
+        <div class="center-inline">
+            <img id="rand-img" src="" alt=""><br/>
+            <button onclick="randDriver()">Get Random Picture.</button>
+        </div>
         <footer>
 			Copyright &copy; <span id="date"></span> - Enterprise Solutions, all rights reserved.
 		</footer>
