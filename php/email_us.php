@@ -17,7 +17,7 @@
         else 
             makeErrorFile($result); //writes error to log
     }
-    header("Location: contact.html?$final");
+    header("Location: ../html/contact.html?$final");
 
     function sendEmail($name, $email, $text) {
         //In here is where the info for the IMAP if we had a server that could do that.
