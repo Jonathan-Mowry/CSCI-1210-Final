@@ -1,0 +1,19 @@
+/*
+    Author:     Chris Seals
+    Date:       04/05/2021
+    Assignment: Web Dev Project
+    Purpose:    To style the Biography Page
+*/
+img
+{
+    float: right;
+    padding-left: 5px;
+}
+div
+{
+    margin: auto;
+    border: 2px solid black;
+    padding-left: 5px;
+    padding-bottom: 200px;
+    font-size: large;
+}
