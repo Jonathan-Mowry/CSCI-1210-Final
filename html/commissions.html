@@ -4,14 +4,11 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel='stylesheet' href='../css/default.css'>
-        <title>Document</title>
+        <link rel="stylesheet" href="commissions.css">
+        <link rel="stylesheet" href="default.css">
+        <title>Commissions</title>
     </head>
     <body>
-        <header>
-            <img id="home-btn" onclick="window.location.href='index.html'" src="../resources/home_icon_edited.png" alt="Home picture">
-            <h1>Samantha Morris's Art Gallery</h1>
-        </header>
         <nav>
             <a href="miss_state.html">Mission Statement</a>
             <a href="contact.html">Contact Us</a>
@@ -19,13 +16,30 @@
             <a href="gallery.html">Gallery</a>
             <a href="bio.html">Biography</a>
         </nav>
-        <footer>
-			Copyright &copy; <span id="date"></span> - Enterprise Solutions, all rights reserved.
-		</footer>
-        <script>
-            var span = document.getElementById("date");
-            var date = new Date();
-            span.innerHTML = date.getFullYear();
-        </script>
+        <table>
+           <tr>
+            <th>Commision Type</th>
+            <th>Example</th>
+            <th>Price in USD</th>
+            </tr>
+            
+            <tr>
+                <td>Sketch</td><td><img src="images/sketch.jpeg" alt='A sketch of a cartoon like skull'></td><td>$30.00</td>
+            </tr>
+        
+            <tr>
+                <td>Pencil Drawing</td><td><img src="images/drawing.jpg" alt='a close up pencil drawing of a reptilian eye'></td><td>$70.00</td>
+            </tr>
+        
+            <td>Drawing with Color</td><td><img src="images/drawingColor.jpg" alt='a colored pencil drawing of a tentecle coming out of the ocean'></td><td>$100.00</td>
+        
+            <tr>
+                <td>Painting</td><td><img src="images/painting.jpeg" alt='several tentecles coming out of the bottom left corner grabbing at the moon which is in the top right'></td><td>$160.00</td>
+            </tr>
+        
+        </table>
+        
+        
+        
     </body>
 </html>
