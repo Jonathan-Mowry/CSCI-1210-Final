@@ -3,9 +3,14 @@
 }
 .show {
     display: block;
-    margin: 20px 0 20px 0;
+    margin: 10px auto;
     background-color: orange;
     padding: 20px;
     border: black 2px solid;
     width: 25%;
+}
+form {
+    text-align: center;
+    font-size: 14pt;
+
 }
