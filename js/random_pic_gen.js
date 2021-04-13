@@ -3,7 +3,7 @@
 //Last Updated: 04/05/2021
 
 //Array that holds the file name for a given picture.
-var picNameArr = ["Dragon_eye.jpg", "elephant.jpeg", "flaming_skull.jpg", "hand_and_rose.jpg", "jellyfish.jpg", "many_tentacles.jpg", "skeleton_face_2.jpeg", "skeleton_face.jpg", "tentacle.jpg", "oogieboogie.jpg"];
+var picNameArr = ["dragon_eye.jpg", "elephant.jpeg", "flaming_skull.jpg", "hand_and_rose.jpg", "jellyfish.jpg", "many_tentacles.jpg", "skeleton_face_2.jpeg", "skeleton_face.jpg", "tentacle.jpg", "oogieboogie.jpg"];
 //Array that holds the alt for each picture.
 var picAltArr = ["Dragon's Eye", "Elephant looking up the the sky", "Flaming Skull", "Skeleton hand holding a rose", "A jellyfish", "A horde of tentacles reaching towards the moon" , "A skeleton's face", "A skeleton's face", "A single tentacle", "oogie boogie from the nightmare before Christmas"];
 //total number of files
