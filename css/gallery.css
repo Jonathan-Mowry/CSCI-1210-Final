@@ -19,4 +19,9 @@ td img {
 }
 figcaption {
     text-align: center;
+    width: 500px;
+}
+.title {
+    display: block;
+    font-weight: bolder;
 }
