@@ -1,3 +1,9 @@
+<!--
+    Author:          Geneva Phillips
+    Date:            04/05/2021
+    Assignment:      Final Project
+    Purpose:         Complete Website
+-->
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -43,7 +49,14 @@
             </tr>
         
         </table>
-        
+        <footer>
+			Copyright &copy; <span id="date"></span> - Enterprise Solutions, all rights reserved.
+		</footer>
+        <script>
+            var span = document.getElementById("date");
+            var date = new Date();
+            span.innerHTML = date.getFullYear();
+        </script>
         
         
     </body>
